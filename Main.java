@@ -13,6 +13,14 @@ public class Main {
         System.out.println(two.scoreGuess("aabb"));
         System.out.println(two.scoreGuess("c"));
 
+        WordMatch three = new WordMatch("concatenation");
+        System.out.println();
+        System.out.println(three.scoreGuess("ten"));
+        System.out.println(three.scoreGuess("nation"));
+        System.out.println(three.findBetterGuess("ten", "nation"));
+        System.out.println(three.scoreGuess("con"));
+        System.out.println(three.scoreGuess("cat"));
+        System.out.println(three.findBetterGuess("con", "cat"));
 
 
 
